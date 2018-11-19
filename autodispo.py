@@ -16,6 +16,7 @@
 # Ziel4 Executable - > Automatik-Betrieb
 # Ziel3 neue autodispo-datei mittels FTP und Privatekey hochladen
 
+# 20181119 Test4
 # 20181119 Test3
 # 20181119 Test2
 # 20181119 Integration in Github
