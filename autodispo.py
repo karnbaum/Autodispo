@@ -10,18 +10,19 @@
 # Ziel10 Fehler-Handlung
 # Ziel9 Zusammenbau
 # Ziel8 Datenbankabfrage (V3) auf Artikelnummer, ean, lagerbestand, vkp nach hpl
-# Ziel7Verknüpfung mit verteilten Daten in Access-Tabelle
-# Ziel6 XY-Tabelle \ Feld \ Matrizenverarbeitung (Feld füllen, Spalten \ Zeilen auswählen, verändern z.B. durch Druckausgabe)
+# Ziel7VerknÃ¼pfung mit verteilten Daten in Access-Tabelle
+# Ziel6 XY-Tabelle \ Feld \ Matrizenverarbeitung (Feld fÃ¼llen, Spalten \ Zeilen auswÃ¤hlen, verÃ¤ndern z.B. durch Druckausgabe)
 # Ziel5 CSV-Datei Lesen und Schreiben
 # Ziel4 Executable - > Automatik-Betrieb
 # Ziel3 neue autodispo-datei mittels FTP und Privatekey hochladen
 
+# 20181119 Integration in Github
 # 20180902 Ziel2 last_autodispo_datei auf Datum und Uhrzeit von heute umsetzen
 # 20180902 Ziel1 Finde die zuletzt mit autodispo auf Rendserv2 hochgeladene autodispo-Datei und weise sie der Variablen last_autodispo_datei zu
 # 20180902 Arbeitsdateinamen lesen und auf neues Datum umsetzen
 # 20180830 Zusammenbau neuer Autodispo-Dateiname mit aktuellem Datum und Uhrzeit
         # 20180829 Gelesenen Dateinamen in 3 Teile Splitten 
-# 20180418 Datenbank-Abfrage über drei Tabellen und Join ok
+# 20180418 Datenbank-Abfrage Ã¼ber drei Tabellen und Join ok
 
 #Fehlercodes
 #000 xxx
@@ -35,7 +36,7 @@ import urllib
 import logging
 import smtplib
 import csv
-import sys #für Ordnername 
+import sys #fÃ¼r Ordnername 
 import shutil
 import datetime
 import pysftp
@@ -183,14 +184,14 @@ for fname in os.listdir(path):
 #        print ziela
         
 #        zielb = ziela                                                                                                                                    #Split wird in Variable umgewandelt
-#        zielort = path3 + zielb                                                                                                                          #Zielort wird aus 2 Variablen zusammengefügt
+#        zielort = path3 + zielb                                                                                                                          #Zielort wird aus 2 Variablen zusammengefÃ¼gt
 #        print ("zielort =")
 #        print zielort                                                                                                                                    #Zielort wird aufgerufen
         
 #        path_1=zielort
 #        print path_1
         
-#        portal_endname = portal[1]                                                                                                                       #Variable wird für Split erstellt
+#        portal_endname = portal[1]                                                                                                                       #Variable wird fÃ¼r Split erstellt
 #        print portal_endname
 #        path2 = "zielort"
         
@@ -207,7 +208,7 @@ for fname in os.listdir(path):
 #        os.rename(path + "/" + portal_endname, zielort + "/" + portal_endname) #verschieben
 #        print (zielort + "/" + portal_endname)
         
-#        print(fname, portal_endname)                                                                                                                    #zeigt Namensänderungen an
+#        print(fname, portal_endname)                                                                                                                    #zeigt NamensÃ¤nderungen an
         
         
 
