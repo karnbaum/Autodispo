@@ -1,0 +1,12 @@
+auto-dispo started running: 2018-09-03 13:44;
+
+auto-dispo started running: 2018-09-03 13:45;
+
+auto-dispo started running: 2018-09-03 13:55;
+
+auto-dispo started running: 2018-09-03 15:13;
+
+
+Autodispo gestartet um: 2018-10-01 16:11;
+Datum heute: 2018-10-01;
+Datum gestern: 2018-09-30;
