@@ -10,3 +10,31 @@ auto-dispo started running: 2018-09-03 15:13;
 Autodispo gestartet um: 2018-10-01 16:11;
 Datum heute: 2018-10-01;
 Datum gestern: 2018-09-30;
+
+Autodispo gestartet um: 2018-11-19 15:05;
+Datum heute: 2018-11-19;
+Datum gestern: 2018-11-18;
+
+Autodispo gestartet um: 2018-11-19 15:17;
+Datum heute: 2018-11-19;
+Datum gestern: 2018-11-18;
+
+Autodispo gestartet um: 2018-11-19 15:18;
+Datum heute: 2018-11-19;
+Datum gestern: 2018-11-18;
+
+Autodispo gestartet um: 2018-11-19 15:20;
+Datum heute: 2018-11-19;
+Datum gestern: 2018-11-18;
+
+Autodispo gestartet um: 2018-11-19 15:23;
+Datum heute: 2018-11-19;
+Datum gestern: 2018-11-18;
+
+Autodispo gestartet um: 2018-11-19 15:26;
+Datum heute: 2018-11-19;
+Datum gestern: 2018-11-18;
+
+Autodispo gestartet um: 2018-11-19 15:27;
+Datum heute: 2018-11-19;
+Datum gestern: 2018-11-18;

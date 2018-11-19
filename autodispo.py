@@ -16,6 +16,7 @@
 # Ziel4 Executable - > Automatik-Betrieb
 # Ziel3 neue autodispo-datei mittels FTP und Privatekey hochladen
 
+# 20181119 Test2
 # 20181119 Integration in Github
 # 20180902 Ziel2 last_autodispo_datei auf Datum und Uhrzeit von heute umsetzen
 # 20180902 Ziel1 Finde die zuletzt mit autodispo auf Rendserv2 hochgeladene autodispo-Datei und weise sie der Variablen last_autodispo_datei zu
@@ -76,7 +77,9 @@ logschreiben('Datum gestern: ' + gestern + ';\n')
 
                                                                               #dateiname_alt="DE_MS_742060_2018-08-10_11-00.csv"
                                                                               #path = "L:\\Python27\\work\\Auto-Dispo"
-path = "W:\\Entwicklung\\work\\autodispo"
+# path = "W:\\Entwicklung\\work\\autodispo"                                   Cullmann Netzwerk-Laufwerk
+path = "C:\Users\SchleicherJ\Documents\GitHub\Autodispo"                                   # Github Local
+
 
                                                                               #count=0
                                                                               #for fname in os.listdir(path):
@@ -132,7 +135,7 @@ for fname in os.listdir(path):
         path2= path.split("\\")
         print path2
         path1= path2[0] + "\\" + path2[1] + "\\" + path2[2] + "\\" + path2[3]  
-        print("Suchordner")
+        print("Suchordner path1")
         print path1
         if not os.path.exists(path1 + "/" + fname_heute):
             path3= path1 + "\\" + "Test"
