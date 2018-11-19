@@ -16,6 +16,7 @@
 # Ziel4 Executable - > Automatik-Betrieb
 # Ziel3 neue autodispo-datei mittels FTP und Privatekey hochladen
 
+# 20181119 Test3
 # 20181119 Test2
 # 20181119 Integration in Github
 # 20180902 Ziel2 last_autodispo_datei auf Datum und Uhrzeit von heute umsetzen
